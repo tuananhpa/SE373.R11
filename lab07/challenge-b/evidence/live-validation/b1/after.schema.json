@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "goal": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "current_state": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failed_attempts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "goal",
+    "error",
+    "current_state",
+    "constraints",
+    "findings",
+    "failed_attempts",
+    "files",
+    "next_action"
+  ],
+  "additionalProperties": false
+}

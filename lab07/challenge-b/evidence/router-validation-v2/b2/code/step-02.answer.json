@@ -1,0 +1,20 @@
+{
+  "tool": "final",
+  "path": "",
+  "code": "",
+  "answer": "Top 3 mã lỗi xuất hiện nhiều nhất: ERR_DB_TIMEOUT (180 lần), ERR_AUTH_EXPIRED (120 lần), ERR_RATE_LIMIT (60 lần).",
+  "errors": [
+    {
+      "code": "ERR_DB_TIMEOUT",
+      "count": 180
+    },
+    {
+      "code": "ERR_AUTH_EXPIRED",
+      "count": 120
+    },
+    {
+      "code": "ERR_RATE_LIMIT",
+      "count": 60
+    }
+  ]
+}

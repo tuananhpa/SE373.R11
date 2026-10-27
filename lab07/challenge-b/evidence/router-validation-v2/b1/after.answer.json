@@ -1,0 +1,22 @@
+{
+  "goal": "Fix refresh-token race condition",
+  "error": "ERR_REFRESH_RACE during concurrent refresh",
+  "current_state": "handler implemented; concurrent refresh test failing",
+  "constraints": [
+    "keep API backward compatible",
+    "do not log refresh tokens"
+  ],
+  "findings": [
+    "failure occurs during concurrent refresh"
+  ],
+  "failed_attempts": [
+    "increasing token TTL did not help",
+    "client retry did not help"
+  ],
+  "files": [
+    "auth.ts",
+    "session.ts",
+    "auth.test.ts"
+  ],
+  "next_action": "inspect locking around refresh"
+}

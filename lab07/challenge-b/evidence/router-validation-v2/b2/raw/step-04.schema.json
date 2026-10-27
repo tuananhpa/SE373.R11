@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "tool": {
+      "type": "string",
+      "enum": [
+        "list_files",
+        "read_file",
+        "run_code",
+        "final"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "code",
+          "count"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "tool",
+    "path",
+    "code",
+    "answer",
+    "errors"
+  ],
+  "additionalProperties": false
+}

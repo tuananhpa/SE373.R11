@@ -1,0 +1,21 @@
+{
+  "id": "resp_0578db096b2c5a23016ae05b5322c48191a16bb40b01fa6cfd",
+  "object": "chat.completion",
+  "created": 1793088339,
+  "model": "gpt-5.6-sol",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"tool\":\"final\",\"key\":\"\",\"value\":\"\",\"evidence\":\"\",\"answer\":\"Dự án hiện dùng session cookie cho authentication, thay cho JWT.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 520,
+    "completion_tokens": 33,
+    "total_tokens": 553
+  }
+}

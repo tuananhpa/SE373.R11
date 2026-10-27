@@ -1,0 +1,33 @@
+{
+  "session": "919d9a1bd70a4e1ab66c2323de580da7",
+  "history_messages": 0,
+  "llm_executed": true,
+  "memory_enabled": false,
+  "injected_memory": [],
+  "trace": [
+    {
+      "action": {
+        "tool": "final",
+        "key": "",
+        "value": "",
+        "evidence": "",
+        "answer": "Chưa có thông tin về cơ chế authentication hiện tại của dự án."
+      },
+      "usage": {
+        "input_tokens": 19382,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "status": "completed",
+  "usage": {
+    "input_tokens": 19382,
+    "cached_input_tokens": 0,
+    "output_tokens": 40
+  },
+  "answer": "Chưa có thông tin về cơ chế authentication hiện tại của dự án.",
+  "elapsed_seconds": 5.422
+}

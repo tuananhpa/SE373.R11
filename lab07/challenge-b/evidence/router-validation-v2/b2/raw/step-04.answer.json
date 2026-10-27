@@ -1,0 +1,7 @@
+{
+  "tool": "read_file",
+  "path": "logs/service-2.log",
+  "code": "",
+  "answer": "",
+  "errors": []
+}

@@ -1,0 +1,273 @@
+{
+  "status": "completed",
+  "llm_executed": true,
+  "mode": "live",
+  "sessions": [
+    {
+      "session": "9177a2a5c16b4792840a075858e23745",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [],
+      "trace": [
+        {
+          "action": {
+            "tool": "remember_memory",
+            "key": "auth",
+            "value": "authentication dùng JWT.",
+            "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+            "answer": ""
+          },
+          "tool_result": {
+            "id": "54bb6cd0c7cb41c5ab032c70acb8bf39",
+            "key": "auth",
+            "value": "authentication dùng JWT.",
+            "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+            "source_session": "9177a2a5c16b4792840a075858e23745",
+            "created_at": "2026-10-27T04:03:33.869750+00:00",
+            "status": "active",
+            "superseded_by": null
+          },
+          "usage": {
+            "input_tokens": 19393,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 46,
+            "reasoning_output_tokens": 0
+          }
+        },
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Đã nhớ quy ước dự án: authentication dùng JWT."
+          },
+          "usage": {
+            "input_tokens": 19603,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 38,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 38996,
+        "cached_input_tokens": 0,
+        "output_tokens": 84
+      },
+      "answer": "Đã nhớ quy ước dự án: authentication dùng JWT.",
+      "elapsed_seconds": 13.093
+    },
+    {
+      "session": "f2e2c92201db4af2ac7025336986f8c7",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "54bb6cd0c7cb41c5ab032c70acb8bf39",
+          "key": "auth",
+          "value": "authentication dùng JWT.",
+          "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+          "source_session": "9177a2a5c16b4792840a075858e23745",
+          "created_at": "2026-10-27T04:03:33.869750+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Theo quy ước đã lưu, dự án hiện dùng JWT cho authentication."
+          },
+          "usage": {
+            "input_tokens": 19505,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 40,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 19505,
+        "cached_input_tokens": 0,
+        "output_tokens": 40
+      },
+      "answer": "Theo quy ước đã lưu, dự án hiện dùng JWT cho authentication.",
+      "elapsed_seconds": 5.297
+    },
+    {
+      "session": "6c125654059147aead3ef087357101a2",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "54bb6cd0c7cb41c5ab032c70acb8bf39",
+          "key": "auth",
+          "value": "authentication dùng JWT.",
+          "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+          "source_session": "9177a2a5c16b4792840a075858e23745",
+          "created_at": "2026-10-27T04:03:33.869750+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "remember_memory",
+            "key": "auth",
+            "value": "authentication dùng session cookie thay cho JWT.",
+            "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+            "answer": ""
+          },
+          "tool_result": {
+            "id": "79f875890da54fefa28de002b3faafad",
+            "key": "auth",
+            "value": "authentication dùng session cookie thay cho JWT.",
+            "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+            "source_session": "6c125654059147aead3ef087357101a2",
+            "created_at": "2026-10-27T04:03:51.389214+00:00",
+            "status": "active",
+            "superseded_by": null
+          },
+          "usage": {
+            "input_tokens": 19518,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 58,
+            "reasoning_output_tokens": 0
+          }
+        },
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Đã nhớ quy ước mới: authentication dùng session cookie thay cho JWT."
+          },
+          "usage": {
+            "input_tokens": 19745,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 41,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 39263,
+        "cached_input_tokens": 0,
+        "output_tokens": 99
+      },
+      "answer": "Đã nhớ quy ước mới: authentication dùng session cookie thay cho JWT.",
+      "elapsed_seconds": 11.625
+    },
+    {
+      "session": "12514df37a8b4d8999d7ca16743b0627",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "79f875890da54fefa28de002b3faafad",
+          "key": "auth",
+          "value": "authentication dùng session cookie thay cho JWT.",
+          "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+          "source_session": "6c125654059147aead3ef087357101a2",
+          "created_at": "2026-10-27T04:03:51.389214+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT."
+          },
+          "usage": {
+            "input_tokens": 19510,
+            "cached_input_tokens": 17920,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 39,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 19510,
+        "cached_input_tokens": 17920,
+        "output_tokens": 39
+      },
+      "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT.",
+      "elapsed_seconds": 6.735
+    },
+    {
+      "session": "919d9a1bd70a4e1ab66c2323de580da7",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": false,
+      "injected_memory": [],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Chưa có thông tin về cơ chế authentication hiện tại của dự án."
+          },
+          "usage": {
+            "input_tokens": 19382,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 40,
+            "reasoning_output_tokens": 0
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 19382,
+        "cached_input_tokens": 0,
+        "output_tokens": 40
+      },
+      "answer": "Chưa có thông tin về cơ chế authentication hiện tại của dự án.",
+      "elapsed_seconds": 5.422
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "checks": {
+      "five_fresh_sessions": true,
+      "all_completed": true,
+      "jwt_injected_session_2": true,
+      "cookie_injected_session_4": true,
+      "old_revision_superseded": true,
+      "one_active_auth": true,
+      "control_has_no_memory": true,
+      "write_tools_executed": true,
+      "answers_match_revisions": true
+    },
+    "note": "Kiểm tra cấu trúc và từ khóa; đọc answer/trace để đánh giá ngữ nghĩa, nhất là đối chứng."
+  },
+  "evidence_dir": "D:\\CODING\\AgenticAI\\lab07\\challenge-a\\evidence\\live-validation"
+}

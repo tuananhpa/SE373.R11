@@ -1,0 +1,21 @@
+{
+  "id": "resp_0c754bf7391f04df016ae05b4eb34c8191853f9a1a5caecd45",
+  "object": "chat.completion",
+  "created": 1793088334,
+  "model": "gpt-5.6-sol",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"tool\":\"final\",\"key\":\"\",\"value\":\"\",\"evidence\":\"\",\"answer\":\"Đã ghi nhớ quy ước mới: authentication dùng session cookie thay cho JWT.\"}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 738,
+    "completion_tokens": 36,
+    "total_tokens": 774
+  }
+}

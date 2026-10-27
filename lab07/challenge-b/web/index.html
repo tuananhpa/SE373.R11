@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lab 07 · Agent harness</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><span>UIT / Lab 07</span><span id="badge">Agent harness</span></header>
+<main>
+<section class="intro"><div><p class="eyebrow" id="challenge">Memory & context</p>
+<h1 id="title">Agent harness</h1><p id="description"></p></div>
+<aside><strong>Quan sát được.</strong><p>Xem agent nhận gì, gọi công cụ nào và lưu lại bằng chứng sau mỗi lượt.</p></aside></section>
+<section class="workspace">
+<div class="controls">
+<h2>Thử nghiệm</h2>
+<label class="toggle"><input id="live" type="checkbox"> Gọi model thật qua 9Router</label>
+<p class="hint">Tắt: kịch bản offline có ghi nhãn, không dùng quota. Bật: gọi model thật và đo usage; cần 9Router đang chạy và cấu hình .env.</p>
+<div id="a-controls" hidden>
+<ol class="steps"><li>Ghi quy ước JWT</li><li>Hỏi lại trong session mới</li><li>Đổi sang session cookie</li><li>Hỏi lại trong session mới</li><li>Đối chứng tắt memory</li></ol>
+<button id="demo-a" type="button">Chạy 5 session độc lập</button>
+<hr><label for="prompt">Thử một quy ước của bạn</label>
+<textarea id="prompt" rows="4">Hãy nhớ quy ước dự án: database dùng PostgreSQL.</textarea>
+<label class="toggle"><input id="no-memory" type="checkbox"> Tắt memory cho session đối chứng</label>
+<button class="secondary" id="session-a" type="button">Gửi trong session mới</button>
+<p class="hint">Câu nói tự nhập dùng kho memory riêng; các lần demo 5 bước tạo kho mới để giữ minh chứng cũ.</p>
+<h3>Kho memory của câu nói tự nhập</h3><div id="memory">Chưa lưu quy ước.</div>
+</div>
+<div id="b-controls" hidden>
+<label for="part">Chọn bài</label><select id="part"><option value="all">B1 và B2</option><option value="b1">B1 · Compaction</option><option value="b2">B2 · Code Mode</option></select>
+<button id="demo-b" type="button">Chạy so sánh</button>
+<div class="explain"><h3>B1 / Tiếp tục sau compact</h3><p>So sánh context dài, structured checkpoint và đối chứng chỉ giữ tin cuối. Kiểm tra lỗi đang điều tra, cách đã thử và bước tiếp.</p>
+<h3>B2 / Chỉ đưa findings vào context</h3><p>Cùng 6 file log: đọc từng file so với chạy code chỉ trả top 3. Lưu input từng lượt và tổng input_tokens thực.</p></div>
+</div>
+</div>
+<div class="results"><div class="result-heading"><h2>Kết quả & bằng chứng</h2><a id="download" hidden target="_blank" rel="noopener">Mở report JSON</a></div>
+<p id="status" role="status" aria-live="polite">Chọn một thử nghiệm để xem context và trace.</p>
+<div id="output"><div class="empty"><span>Context → Action → Tool → Kết quả</span><p>Mỗi lượt chạy được lưu vào thư mục riêng trên máy.</p></div></div>
+</div>
+</section>
+</main><footer>Python điều phối công cụ. Memory nằm trên đĩa. Context là phần thực sự gửi vào model.</footer>
+</body></html>

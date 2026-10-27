@@ -1,0 +1,31 @@
+{
+  "session": "fcea43252640481bb1e6a536a713ef32",
+  "history_messages": 0,
+  "llm_executed": true,
+  "memory_enabled": false,
+  "injected_memory": [],
+  "trace": [
+    {
+      "action": {
+        "tool": "final",
+        "key": "",
+        "value": "",
+        "evidence": "",
+        "answer": "Hiện chưa có thông tin về quy ước authentication của dự án."
+      },
+      "usage": {
+        "input_tokens": 382,
+        "cached_input_tokens": 0,
+        "output_tokens": 34
+      }
+    }
+  ],
+  "status": "completed",
+  "usage": {
+    "input_tokens": 382,
+    "cached_input_tokens": 0,
+    "output_tokens": 34
+  },
+  "answer": "Hiện chưa có thông tin về quy ước authentication của dự án.",
+  "elapsed_seconds": 4.922
+}

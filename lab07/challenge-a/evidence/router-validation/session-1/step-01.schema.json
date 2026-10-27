@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "tool": {
+      "type": "string",
+      "enum": [
+        "read_memory",
+        "remember_memory",
+        "final"
+      ]
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tool",
+    "key",
+    "value",
+    "evidence",
+    "answer"
+  ],
+  "additionalProperties": false
+}

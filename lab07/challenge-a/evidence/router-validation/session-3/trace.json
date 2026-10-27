@@ -1,0 +1,26 @@
+[
+  {
+    "action": {
+      "tool": "remember_memory",
+      "key": "auth",
+      "value": "Authentication dùng session cookie thay cho JWT.",
+      "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+      "answer": ""
+    },
+    "tool_result": {
+      "id": "0af8c7bba768414998d8dc8769d30d33",
+      "key": "auth",
+      "value": "Authentication dùng session cookie thay cho JWT.",
+      "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+      "source_session": "a000b004f3844fe3943bab0a31ff8aee",
+      "created_at": "2026-10-27T08:05:31.764244+00:00",
+      "status": "active",
+      "superseded_by": null
+    },
+    "usage": {
+      "input_tokens": 520,
+      "cached_input_tokens": 0,
+      "output_tokens": 52
+    }
+  }
+]

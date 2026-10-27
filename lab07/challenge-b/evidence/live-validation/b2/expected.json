@@ -1,0 +1,14 @@
+[
+  {
+    "code": "ERR_DB_TIMEOUT",
+    "count": 180
+  },
+  {
+    "code": "ERR_AUTH_EXPIRED",
+    "count": 120
+  },
+  {
+    "code": "ERR_RATE_LIMIT",
+    "count": 60
+  }
+]

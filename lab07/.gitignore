@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+challenge-a/data/
+challenge-b/data/
+challenge-a/evidence/*
+!challenge-a/evidence/live-validation/
+!challenge-a/evidence/router-validation/
+challenge-b/evidence/*
+!challenge-b/evidence/live-validation/
+!challenge-b/evidence/router-validation-v2/
+tmp/
+
+.env
+.env.*
+!.env.example

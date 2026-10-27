@@ -1,0 +1,59 @@
+{
+  "session": "9177a2a5c16b4792840a075858e23745",
+  "history_messages": 0,
+  "llm_executed": true,
+  "memory_enabled": true,
+  "injected_memory": [],
+  "trace": [
+    {
+      "action": {
+        "tool": "remember_memory",
+        "key": "auth",
+        "value": "authentication dùng JWT.",
+        "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+        "answer": ""
+      },
+      "tool_result": {
+        "id": "54bb6cd0c7cb41c5ab032c70acb8bf39",
+        "key": "auth",
+        "value": "authentication dùng JWT.",
+        "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+        "source_session": "9177a2a5c16b4792840a075858e23745",
+        "created_at": "2026-10-27T04:03:33.869750+00:00",
+        "status": "active",
+        "superseded_by": null
+      },
+      "usage": {
+        "input_tokens": 19393,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 46,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "action": {
+        "tool": "final",
+        "key": "",
+        "value": "",
+        "evidence": "",
+        "answer": "Đã nhớ quy ước dự án: authentication dùng JWT."
+      },
+      "usage": {
+        "input_tokens": 19603,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "status": "completed",
+  "usage": {
+    "input_tokens": 38996,
+    "cached_input_tokens": 0,
+    "output_tokens": 84
+  },
+  "answer": "Đã nhớ quy ước dự án: authentication dùng JWT.",
+  "elapsed_seconds": 13.093
+}

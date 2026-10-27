@@ -1,0 +1,7 @@
+{
+  "tool": "run_code",
+  "path": "",
+  "code": "import glob\nimport re\nimport collections\ncodes = collections.Counter()\nfor path in glob.glob(\"logs/*.log\"):\n    file = open(path)\n    for line in file:\n        match = re.search(r\" ERROR \\S+ (ERR_[A-Z0-9_]+)\\b\", line)\n        if match:\n            codes[match.group(1)] += 1\nfor code, count in codes.most_common(3):\n    print(code, count)",
+  "answer": "",
+  "errors": []
+}

@@ -1,0 +1,98 @@
+{
+  "challenge": "B1",
+  "llm_executed": true,
+  "trigger": {
+    "reason": "context vượt 60000 ký tự",
+    "threshold_chars": 60000,
+    "observed_chars": 162725
+  },
+  "compaction_method": "typed harness checkpoint; không gọi LLM để nén",
+  "before": {
+    "answer": {
+      "goal": "Fix refresh-token race condition",
+      "error": "ERR_REFRESH_RACE during concurrent refresh",
+      "current_state": "handler implemented; concurrent refresh test failing",
+      "constraints": [
+        "keep API backward compatible",
+        "do not log refresh tokens"
+      ],
+      "findings": [
+        "failure occurs during concurrent refresh"
+      ],
+      "failed_attempts": [
+        "increasing token TTL did not help",
+        "client retry did not help"
+      ],
+      "files": [
+        "auth.ts",
+        "session.ts",
+        "auth.test.ts"
+      ],
+      "next_action": "inspect locking around refresh"
+    },
+    "usage": {
+      "input_tokens": 43325,
+      "cached_input_tokens": 0,
+      "output_tokens": 98
+    },
+    "correct": true,
+    "context_chars": 163019
+  },
+  "after": {
+    "answer": {
+      "goal": "Fix refresh-token race condition",
+      "error": "ERR_REFRESH_RACE during concurrent refresh",
+      "current_state": "handler implemented; concurrent refresh test failing",
+      "constraints": [
+        "keep API backward compatible",
+        "do not log refresh tokens"
+      ],
+      "findings": [
+        "failure occurs during concurrent refresh"
+      ],
+      "failed_attempts": [
+        "increasing token TTL did not help",
+        "client retry did not help"
+      ],
+      "files": [
+        "auth.ts",
+        "session.ts",
+        "auth.test.ts"
+      ],
+      "next_action": "inspect locking around refresh"
+    },
+    "usage": {
+      "input_tokens": 391,
+      "cached_input_tokens": 0,
+      "output_tokens": 98
+    },
+    "correct": true,
+    "context_chars": 790
+  },
+  "truncated": {
+    "answer": {
+      "goal": "Tiếp tục điều tra refresh-token race.",
+      "error": "",
+      "current_state": "Chưa có dữ liệu điều tra refresh-token race trong context được cung cấp.",
+      "constraints": [
+        "Giữ nguyên chuỗi nguồn khi có.",
+        "Thiếu thông tin thì dùng chuỗi rỗng hoặc [].",
+        "Không đoán hoặc dùng kiến thức ngoài."
+      ],
+      "findings": [],
+      "failed_attempts": [],
+      "files": [],
+      "next_action": "Cung cấp context điều tra trước đó, gồm lỗi, constraints, các cách đã thử, files liên quan và trạng thái hiện tại."
+    },
+    "usage": {
+      "input_tokens": 316,
+      "cached_input_tokens": 0,
+      "output_tokens": 178
+    },
+    "correct": false,
+    "context_chars": 403
+  },
+  "context_reduction_percent": 99.52,
+  "input_token_saving_percent": 99.1,
+  "passed": true
+}

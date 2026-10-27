@@ -1,0 +1,44 @@
+{
+  "session": "12514df37a8b4d8999d7ca16743b0627",
+  "history_messages": 0,
+  "llm_executed": true,
+  "memory_enabled": true,
+  "injected_memory": [
+    {
+      "id": "79f875890da54fefa28de002b3faafad",
+      "key": "auth",
+      "value": "authentication dùng session cookie thay cho JWT.",
+      "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+      "source_session": "6c125654059147aead3ef087357101a2",
+      "created_at": "2026-10-27T04:03:51.389214+00:00",
+      "status": "active",
+      "superseded_by": null
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "tool": "final",
+        "key": "",
+        "value": "",
+        "evidence": "",
+        "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT."
+      },
+      "usage": {
+        "input_tokens": 19510,
+        "cached_input_tokens": 17920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 39,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "status": "completed",
+  "usage": {
+    "input_tokens": 19510,
+    "cached_input_tokens": 17920,
+    "output_tokens": 39
+  },
+  "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT.",
+  "elapsed_seconds": 6.735
+}

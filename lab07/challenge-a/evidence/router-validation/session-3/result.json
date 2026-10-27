@@ -1,0 +1,66 @@
+{
+  "session": "a000b004f3844fe3943bab0a31ff8aee",
+  "history_messages": 0,
+  "llm_executed": true,
+  "memory_enabled": true,
+  "injected_memory": [
+    {
+      "id": "f229e1f64a5045aa9762bc99a98975f0",
+      "key": "auth",
+      "value": "Authentication dùng JWT.",
+      "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+      "source_session": "bf89e67f0eda476e8184a29ee4a85d12",
+      "created_at": "2026-10-27T08:05:17.512374+00:00",
+      "status": "active",
+      "superseded_by": null
+    }
+  ],
+  "trace": [
+    {
+      "action": {
+        "tool": "remember_memory",
+        "key": "auth",
+        "value": "Authentication dùng session cookie thay cho JWT.",
+        "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+        "answer": ""
+      },
+      "tool_result": {
+        "id": "0af8c7bba768414998d8dc8769d30d33",
+        "key": "auth",
+        "value": "Authentication dùng session cookie thay cho JWT.",
+        "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+        "source_session": "a000b004f3844fe3943bab0a31ff8aee",
+        "created_at": "2026-10-27T08:05:31.764244+00:00",
+        "status": "active",
+        "superseded_by": null
+      },
+      "usage": {
+        "input_tokens": 520,
+        "cached_input_tokens": 0,
+        "output_tokens": 52
+      }
+    },
+    {
+      "action": {
+        "tool": "final",
+        "key": "",
+        "value": "",
+        "evidence": "",
+        "answer": "Đã ghi nhớ quy ước mới: authentication dùng session cookie thay cho JWT."
+      },
+      "usage": {
+        "input_tokens": 738,
+        "cached_input_tokens": 0,
+        "output_tokens": 36
+      }
+    }
+  ],
+  "status": "completed",
+  "usage": {
+    "input_tokens": 1258,
+    "cached_input_tokens": 0,
+    "output_tokens": 88
+  },
+  "answer": "Đã ghi nhớ quy ước mới: authentication dùng session cookie thay cho JWT.",
+  "elapsed_seconds": 8.5
+}

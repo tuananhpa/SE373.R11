@@ -1,0 +1,1 @@
+{"type": "turn.completed", "provider": "9router", "model": "cx/gpt-5.6-sol", "response_id": "resp_007c81f2347c9aba016ae05bf1499c8191bf7691ca66b34a01", "usage": {"input_tokens": 35630, "cached_input_tokens": 0, "output_tokens": 44}}

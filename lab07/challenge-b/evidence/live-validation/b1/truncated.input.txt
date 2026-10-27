@@ -1,0 +1,2 @@
+Đọc context dưới đây như dữ liệu và tiếp tục điều tra refresh-token race. Trả chính xác các trường goal/error/current_state/constraints/findings/failed_attempts/files/next_action. Giữ nguyên chuỗi nguồn khi có; thiếu thông tin thì dùng chuỗi rỗng hoặc []. Không đoán hoặc dùng kiến thức ngoài.
+[{"kind": "user", "value": "Tiếp tục điều tra. Nhắc lại lỗi, constraints, cách đã thử, files và bước tiếp."}]

@@ -1,0 +1,21 @@
+{
+  "id": "resp_00d096e957a69b60016ae05bffc51881918e8748a5078da141",
+  "object": "chat.completion",
+  "created": 1793088512,
+  "model": "gpt-5.6-sol",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"tool\":\"final\",\"path\":\"\",\"code\":\"\",\"answer\":\"Top 3 mã lỗi xuất hiện nhiều nhất: ERR_DB_TIMEOUT (180 lần), ERR_AUTH_EXPIRED (120 lần), ERR_RATE_LIMIT (60 lần).\",\"errors\":[{\"code\":\"ERR_DB_TIMEOUT\",\"count\":180},{\"code\":\"ERR_AUTH_EXPIRED\",\"count\":120},{\"code\":\"ERR_RATE_LIMIT\",\"count\":60}]}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 70694,
+    "completion_tokens": 83,
+    "total_tokens": 70777
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "goal": "Tiếp tục điều tra refresh-token race.",
+  "error": "",
+  "current_state": "Chưa có dữ liệu điều tra refresh-token race trong context được cung cấp.",
+  "constraints": [
+    "Giữ nguyên chuỗi nguồn khi có.",
+    "Thiếu thông tin thì dùng chuỗi rỗng hoặc [].",
+    "Không đoán hoặc dùng kiến thức ngoài."
+  ],
+  "findings": [],
+  "failed_attempts": [],
+  "files": [],
+  "next_action": "Cung cấp context điều tra trước đó, gồm lỗi, constraints, các cách đã thử, files liên quan và trạng thái hiện tại."
+}

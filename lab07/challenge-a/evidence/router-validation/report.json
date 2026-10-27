@@ -1,0 +1,259 @@
+{
+  "status": "completed",
+  "llm_executed": true,
+  "mode": "live",
+  "sessions": [
+    {
+      "session": "bf89e67f0eda476e8184a29ee4a85d12",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [],
+      "trace": [
+        {
+          "action": {
+            "tool": "remember_memory",
+            "key": "auth",
+            "value": "Authentication dùng JWT.",
+            "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+            "answer": ""
+          },
+          "tool_result": {
+            "id": "f229e1f64a5045aa9762bc99a98975f0",
+            "key": "auth",
+            "value": "Authentication dùng JWT.",
+            "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+            "source_session": "bf89e67f0eda476e8184a29ee4a85d12",
+            "created_at": "2026-10-27T08:05:17.512374+00:00",
+            "status": "active",
+            "superseded_by": null
+          },
+          "usage": {
+            "input_tokens": 393,
+            "cached_input_tokens": 0,
+            "output_tokens": 54
+          }
+        },
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Đã nhớ quy ước dự án: authentication dùng JWT."
+          },
+          "usage": {
+            "input_tokens": 588,
+            "cached_input_tokens": 0,
+            "output_tokens": 32
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 981,
+        "cached_input_tokens": 0,
+        "output_tokens": 86
+      },
+      "answer": "Đã nhớ quy ước dự án: authentication dùng JWT.",
+      "elapsed_seconds": 11.438
+    },
+    {
+      "session": "3f7e5fceef6a436a8cfbda401e734ddb",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "f229e1f64a5045aa9762bc99a98975f0",
+          "key": "auth",
+          "value": "Authentication dùng JWT.",
+          "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+          "source_session": "bf89e67f0eda476e8184a29ee4a85d12",
+          "created_at": "2026-10-27T08:05:17.512374+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Dự án hiện dùng JWT cho authentication."
+          },
+          "usage": {
+            "input_tokens": 509,
+            "cached_input_tokens": 0,
+            "output_tokens": 28
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 509,
+        "cached_input_tokens": 0,
+        "output_tokens": 28
+      },
+      "answer": "Dự án hiện dùng JWT cho authentication.",
+      "elapsed_seconds": 4.313
+    },
+    {
+      "session": "a000b004f3844fe3943bab0a31ff8aee",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "f229e1f64a5045aa9762bc99a98975f0",
+          "key": "auth",
+          "value": "Authentication dùng JWT.",
+          "evidence": "Hãy nhớ quy ước dự án: authentication dùng JWT.",
+          "source_session": "bf89e67f0eda476e8184a29ee4a85d12",
+          "created_at": "2026-10-27T08:05:17.512374+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "remember_memory",
+            "key": "auth",
+            "value": "Authentication dùng session cookie thay cho JWT.",
+            "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+            "answer": ""
+          },
+          "tool_result": {
+            "id": "0af8c7bba768414998d8dc8769d30d33",
+            "key": "auth",
+            "value": "Authentication dùng session cookie thay cho JWT.",
+            "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+            "source_session": "a000b004f3844fe3943bab0a31ff8aee",
+            "created_at": "2026-10-27T08:05:31.764244+00:00",
+            "status": "active",
+            "superseded_by": null
+          },
+          "usage": {
+            "input_tokens": 520,
+            "cached_input_tokens": 0,
+            "output_tokens": 52
+          }
+        },
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Đã ghi nhớ quy ước mới: authentication dùng session cookie thay cho JWT."
+          },
+          "usage": {
+            "input_tokens": 738,
+            "cached_input_tokens": 0,
+            "output_tokens": 36
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1258,
+        "cached_input_tokens": 0,
+        "output_tokens": 88
+      },
+      "answer": "Đã ghi nhớ quy ước mới: authentication dùng session cookie thay cho JWT.",
+      "elapsed_seconds": 8.5
+    },
+    {
+      "session": "1723682c4a3342d199f61d4985cf15e0",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": true,
+      "injected_memory": [
+        {
+          "id": "0af8c7bba768414998d8dc8769d30d33",
+          "key": "auth",
+          "value": "Authentication dùng session cookie thay cho JWT.",
+          "evidence": "Chốt thay đổi: authentication dùng session cookie thay cho JWT. Hãy nhớ quy ước mới.",
+          "source_session": "a000b004f3844fe3943bab0a31ff8aee",
+          "created_at": "2026-10-27T08:05:31.764244+00:00",
+          "status": "active",
+          "superseded_by": null
+        }
+      ],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT."
+          },
+          "usage": {
+            "input_tokens": 520,
+            "cached_input_tokens": 0,
+            "output_tokens": 33
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 520,
+        "cached_input_tokens": 0,
+        "output_tokens": 33
+      },
+      "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT.",
+      "elapsed_seconds": 4.609
+    },
+    {
+      "session": "fcea43252640481bb1e6a536a713ef32",
+      "history_messages": 0,
+      "llm_executed": true,
+      "memory_enabled": false,
+      "injected_memory": [],
+      "trace": [
+        {
+          "action": {
+            "tool": "final",
+            "key": "",
+            "value": "",
+            "evidence": "",
+            "answer": "Hiện chưa có thông tin về quy ước authentication của dự án."
+          },
+          "usage": {
+            "input_tokens": 382,
+            "cached_input_tokens": 0,
+            "output_tokens": 34
+          }
+        }
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 382,
+        "cached_input_tokens": 0,
+        "output_tokens": 34
+      },
+      "answer": "Hiện chưa có thông tin về quy ước authentication của dự án.",
+      "elapsed_seconds": 4.922
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "checks": {
+      "five_fresh_sessions": true,
+      "all_completed": true,
+      "jwt_injected_session_2": true,
+      "cookie_injected_session_4": true,
+      "old_revision_superseded": true,
+      "one_active_auth": true,
+      "control_has_no_memory": true,
+      "write_tools_executed": true,
+      "answers_match_revisions": true
+    },
+    "note": "Kiểm tra cấu trúc và từ khóa; đọc answer/trace để đánh giá ngữ nghĩa, nhất là đối chứng."
+  },
+  "evidence_dir": "D:\\CODING\\AgenticAI\\lab07\\challenge-a\\evidence\\router-validation"
+}

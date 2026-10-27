@@ -1,0 +1,1 @@
+{"tool":"final","path":"","code":"","answer":"Top 3 mã lỗi trên tất cả 6 file log: ERR_DB_TIMEOUT: 180 lần; ERR_AUTH_EXPIRED: 120 lần; ERR_RATE_LIMIT: 60 lần. Chỉ tính dòng khớp regex yêu cầu, bỏ qua WARN và dòng thiếu mã.","errors":[{"code":"ERR_DB_TIMEOUT","count":180},{"code":"ERR_AUTH_EXPIRED","count":120},{"code":"ERR_RATE_LIMIT","count":60}]}

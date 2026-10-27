@@ -1,0 +1,7 @@
+{
+  "tool": "final",
+  "key": "",
+  "value": "",
+  "evidence": "",
+  "answer": "Dự án hiện dùng session cookie cho authentication, thay cho JWT."
+}

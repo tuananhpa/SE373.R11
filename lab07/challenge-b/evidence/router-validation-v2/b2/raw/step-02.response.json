@@ -1,0 +1,21 @@
+{
+  "id": "resp_08c775f9e6c0c0da016ae05be02a088191975716455a29ac49",
+  "object": "chat.completion",
+  "created": 1793088480,
+  "model": "gpt-5.6-sol",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"tool\":\"read_file\",\"path\":\"logs/service-0.log\",\"code\":\"\",\"answer\":\"\",\"errors\":[]}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 566,
+    "completion_tokens": 40,
+    "total_tokens": 606
+  }
+}

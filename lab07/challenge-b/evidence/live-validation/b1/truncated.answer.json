@@ -1,0 +1,1 @@
+{"goal":"Tiếp tục điều tra refresh-token race.","error":"","current_state":"","constraints":["Giữ nguyên chuỗi nguồn khi có; thiếu thông tin thì dùng chuỗi rỗng hoặc [].","Không đoán hoặc dùng kiến thức ngoài."],"findings":[],"failed_attempts":[],"files":[],"next_action":""}
